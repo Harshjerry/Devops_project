@@ -1,0 +1,27 @@
+#https://github.com/docker/awesome-compose
+##  for Nodejs application running on port 5000  ,  with nginx  load balancer 
+services: 
+  web1:
+    build:
+      context: ./web # is the directory whose contents are sent to the Docker daemon to build the image.
+      dockerfile: Dockerfile.dev  # lets you specify the name or path of the Dockerfile if it’s not the default (Dockerfile)
+    hostname: web
+    ports:
+      - '82:5000'
+    restart: on-failur
+  web2:
+    build:
+      dockerfile: ./web
+    hostname: web1
+    ports:
+      - '81:5000'
+    restart: on-failure
+  nginx:
+    build:
+      context: contextPath
+      dockerfile: ./nginx
+    ports:
+    - '80:80'
+    depends_on:
+      - web1
+      - web2

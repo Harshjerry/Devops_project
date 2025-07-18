@@ -1,0 +1,34 @@
+# === Terraform ignores (explicit, production-safe) ===
+
+# Terraform/backend
+Terraform/backend/terraform.tfstate
+Terraform/backend/terraform.tfstate.backup
+Terraform/backend/.terraform.lock.hcl
+Terraform/backend/.terraform/
+Terraform/backend/*.backup
+Terraform/backend/*.tfplan
+Terraform/backend/*.log
+Terraform/backend/*.tfvars
+Terraform/backend/terraform.tfvars
+
+# Terraform/modules/vpc
+Terraform/modules/vpc/terraform.tfstate
+Terraform/modules/vpc/terraform.tfstate.backup
+Terraform/modules/vpc/.terraform.lock.hcl
+Terraform/modules/vpc/.terraform/
+Terraform/modules/vpc/*.backup
+Terraform/modules/vpc/*.tfplan
+Terraform/modules/vpc/*.log
+Terraform/modules/vpc/*.tfvars
+Terraform/modules/vpc/terraform.tfvars
+
+# Terraform/modules/eks
+Terraform/modules/eks/terraform.tfstate
+Terraform/modules/eks/terraform.tfstate.backup
+Terraform/modules/eks/.terraform.lock.hcl
+Terraform/modules/eks/.terraform/
+Terraform/modules/eks/*.backup
+Terraform/modules/eks/*.tfplan
+Terraform/modules/eks/*.log
+Terraform/modules/eks/*.tfvars
+Terraform/modules/eks/terraform.tfvars

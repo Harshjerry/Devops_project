@@ -1,0 +1,11 @@
+ my instructior have kept  yaml files ffor each  service  
+ https://github.com/iam-veeramalla/ultimate-devops-project-demo/tree/main/kubernetes
+
+ we will do $ kubectl apply -f   x.yaml
+for each service or complete.yaml  files
+
+ it will provision  all services and  their deployment 
+
+  acccording to our architeccture projet is acceseed by frontened-proxy 
+
+ we wil make ingress for this service  and addd our hostname=www.jerrycloud.site 

@@ -1,11 +1,18 @@
  my instructior have kept  yaml files ffor each  service  
  https://github.com/iam-veeramalla/ultimate-devops-project-demo/tree/main/kubernetes
-
+STEP 1. 
  we will do $ kubectl apply -f   x.yaml
 for each service or complete.yaml  files
-
  it will provision  all services and  their deployment 
 
-  acccording to our architeccture projet is acceseed by frontened-proxy 
+STEP2 
 
- we wil make ingress for this service  and addd our hostname=www.jerrycloud.site 
+we will add alb controller  so that our ingress can provision alb  automatically 
+https://github.com/iam-veeramalla/ultimate-devops-project-aws/blob/main/14-kubernetes-ingress-controller.md
+
+
+STEP3
+  acccording to our architeccture project is acceseed by frontend-proxy 
+ we will make ingress for this service  and and specify 
+ "hostname=www.jerrycloud.site "
+  "ingressClassName: alb"

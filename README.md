@@ -7,7 +7,7 @@
 
 ### 📌 Overview
 
-This project is a **cloud-native microservices-based e-commerce application** implemented using modern DevOps practices. The architecture follows a **polyglot microservices** pattern with **gRPC and HTTP** communications and is deployed on **Amazon EKS** using:
+This project is a **cloud-native microservices-based e-commerce application** implemented using modern DevOps practices. The architecture follows a **multi  microservices** pattern and deployed on **Amazon EKS** using:
 
 - 🔁 GitHub Actions + ArgoCD for CI/CD
 - 🐳 Docker for containerization

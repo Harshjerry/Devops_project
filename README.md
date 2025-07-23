@@ -107,6 +107,13 @@ Each service has its own `Dockerfile` and CI build process.
 
 ## 📸 Preview: Architecture
 
+### 📁 Full Implementation Code
+🔗 This entire project with all Terraform modules, Kubernetes manifests, CI/CD scripts, and Dockerfiles is available in the repository:
+
+[👉 Harshjerry/ultimate-devops-project-demo](https://github.com/Harshjerry/ultimate-devops-project-demo)
+
+
+
 > Microservices communicating over HTTP and gRPC with async Kafka flows and shared infrastructure components like Cache and FlagD.
 
 ![Architecture](./bbb81724-95e6-4956-8fd0-8975ba191630.png)

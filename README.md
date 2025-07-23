@@ -113,7 +113,6 @@ Each service has its own `Dockerfile` and CI build process.
 
 
 
-![Architecture](./bbb81724-95e6-4956-8fd0-8975ba191630.png)
 
 ---
 

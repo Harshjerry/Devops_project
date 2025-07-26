@@ -9,8 +9,9 @@ This project is a **Cloud-native microservices-based e-commerce application** im
 
 - 🔁 GitHub Actions + ArgoCD for CI/CD
 - 🐳 Docker for containerization
-- ☁️ AWS EKS with Terraform for Infrastructure as Code
-- 🎯 Custom domain with Ingress setup
+- ☁️ AWS EKS and VPC with Terraform for Infrastructure as Code
+- 🎯 Custom domain with Ingress setup using Kubernetes
+
 
 ---
 

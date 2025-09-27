@@ -104,7 +104,6 @@ Each service has its own `Dockerfile` and CI build process.
 
 ---
 
-## 📸 Preview: Architecture
 
 ### 📁 Full Implementation Code
 🔗 This entire project with all Terraform modules, Kubernetes manifests, CI/CD scripts, and Dockerfiles is  implemented in the  given repository
